@@ -32,15 +32,17 @@ export default {
   },
   mounted() {
     const ttt = this.Crypto.get(
-          "Wuv7//QyvM5eAH6r6Yo3ng=="
+          // "Wuv7//QyvM5eAH6r6Yo3ng=="
+      //一乐文化
+      "2OB41TqRRlUKgHAXgHNNzA=="
         );
     watermark.load({ watermark_txt: ttt });
   },
   watch: {
     $route(route) {
-        this.ttt = this.Crypto.get(
+        this.ttt = "";/*this.Crypto.get(
           "JcPYFM5UAxqqLazbPKP8clN2geEWtOa/7P4nS4iJFvMeTCDKC0KgsFRoyO/kvjgmgzNB+L4ASDp26yz7hbhDxUpvtnLYSUgDUtII9L1Rxtk="
-        );
+        );*/
     },
   },
 };
